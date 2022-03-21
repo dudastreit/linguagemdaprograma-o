@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>listas</title>
+	<meta name="author" content="maria">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <h1>listas</h1>
+      <h2>lista ordenada</h2>
+      <ol> 
+      	<li>item 1</li>
+      	<li>item 2</li>
+      	<li>item 3</li>
+      </ol>
+
+      <h2>lista não ordenada</h2>
+      <ul>
+      	<li>item 1</li>
+      	<li>item 2</li>
+      	<li>item 3</li>
+      </ul>
+
+      <h2>lista com definições</h2>
+      <dl>
+      	<dt>segunda-feira</dt>
+      	<dd>linguagem da programação e design da informação</dd>
+      	<dt>terça-feira</dt>
+      	<dd>projeto empreendedor</dd>
+      	<dt>quarta-feira</dt>
+      	<dd>design de animação</dd>
+      	<dt>quinta-feira</dt>
+      	<dd>soluções em design visual: interagir</dd>
+      	<dt>sexta-feira</dt>
+      	<dd>processo de significação aplicado ao design e ergonomia funcional</dd>
+
+
+      </dl>
+      <h2>tabela</h2>
+      <table>
+      	<tr>
+      		<th>nome</th><th>1° bimestre</th><th>2° bimestre</th><th>total</th>
+      	</tr>
+      	<tr>
+      		<td>maria</td><td>5,0</td><td>4,0</td><td>9,0</td>
+       </tr>
+       <tr>
+       	<td>yohan</td><td>3,0</td><td>3,0</td><td>6,0</td>
+       </tr>
+       <tr>
+       	<td>henelly</td><td>5,0</td><td>3,0</td><td>7,0</td>
+       </tr>
+
+
+
+      </table>
+
+      <p class="destaque">texto destaque</p>
+      <p class="pequeno">texto pequeno</p>
+</body>
+</html>
+h1{
+	font-family: arial;
+	font-size: 60pt;
+	color: mediumpurple;
+	background-color: lightyellow;
+	padding: 50px;
+}
