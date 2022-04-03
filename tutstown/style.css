@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  background-color: #FAF8DA;
+  font-family: 'arial';
+  color: #205D76;
+  font-size: 35px;
+  text-align: center;}
+
+
+.top {text-align: center;}
+
+.firstimage {width: 65%;}
+
+section {max-width: 100%;}
+
+.store-section 
+{ display: flex;
+  display: -webkit-flex;
+  margin: 20px auto; 
+  width: 450px }
+
+.building 
+{ width: 180px; }
+
+.store-details
+{ margin-left: px; }
+
+.category-heading
+{ color: #205D76;
+  font-size: 30px;}
+
+.store-list
+{ padding-left: 60px;
+  font-size: 20px;
+  color: #FFC122; }
+
+.store-name
+{margin-bottom: 10px;}
+
+.store-link
+{ color: #EA6E2F;
+  font-size: 15px;
+  padding-left }
+
+
+.footer
+{ padding: 2px;
+  background-color: #FFC122;
+  text-align: center;
+  max-width: 100; }
+
+.created
+{ color: #FFFFFF;
+  font-size: 20px;
+  width: auto;
+  position: bottom; }
