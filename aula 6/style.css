@@ -1,0 +1,65 @@
+/*Este é o CSS do site Tuts Town*/
+
+body{
+	font-family:'Open Sans', sans-serif; 
+	background-color: #FAF8DA;
+	margin: 0;
+}
+
+header{
+     text-align: center;
+}
+
+h1{
+	font-size: 70px;
+	color: #205d76;
+}
+
+img.header{
+	width: 650px;
+}
+
+article{
+	display: flex;
+	width: 450px;
+	margin: 50px auto;
+}
+
+.article{
+	width: 200px;
+}
+
+div{
+	margin-left: 30px;
+}
+
+h2{
+	font-size: 30px;
+	color: #205d76;
+}
+
+ul{
+	color: #FFC122;
+	padding-left: 15px;
+}
+
+li{
+	margin-bottom: 10px;
+}
+
+a{
+	font-size: 20px;
+	color: #EA6E2F;
+}
+
+footer{
+	background-color: #FFC122
+	text-align: center;
+	padding: 2px;
+}
+
+p{
+	color: #FFFFFF;
+	font-size: 20px;
+
+}
