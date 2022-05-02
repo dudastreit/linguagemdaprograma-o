@@ -1,0 +1,250 @@
+ /*		  
+Olá
+Este é o CSS Responsivo do Site de Design Digital*/
+
+/* 1 EM - 16px - gambiarra1EM - 10px
+100%- 16px
+x - 10px   =62.5*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	color:#444;
+	font-size: 62.5%; 
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+/*
+Todo 'a' vem por default sublinhado, para mudar isso deve-se usar as seguintes propriedades:
+text-decoration: none ==> retira o sublinhado;
+text-decoration: underline ==> coloca um sublinhado;
+text-decoration: overline ==> coloca um sobrelinhado;
+text-decoration: underline overline ==> coloca sobre e sublinhado juntos;
+text-decoration: line-through ==> coloca uma linha em cima do texto.
+*/
+a{
+	text-decoration: none;
+	font-size: 1.6em; /*16px*/
+	color: #00CCFF;
+}
+
+a:hover{
+	text-decoration: underline,overline;
+}
+
+/*
+Como estilizar o comportamento do mouse
+a:link estiliza o estado UP (corresponde a situação inicial do link, isto é, o aspecto do link quando a página é carregada no browser do usuário);
+a:visited estiliza o estado VISITED (é o aspecto que o link assume quando o usuário passa o ponteiro do mouse sobre o link);
+a:hover estiliza o estado OVER (é o aspecto do link depois que foi visitado pelo usuário);
+a:active estiliza o estado link ativo (é o aspecto do link ativo, isto é, aquele que foi clicado pelo usuário.);
+*/
+
+.container{
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+img,
+figure,
+video,
+embed{max-width: 100%;}
+
+header{
+	width: 100%;
+	height: 48px;
+	margin-top: 3.6em;
+	margin-bottom: 3.6em; /*36px*/
+}
+
+
+.logo{
+	width: 20.74%; /*234px objeto : 1128px contexto= resultado X 100= x%*/
+	float: left;
+}
+
+nav{
+	width: 74.47%; /* 840px - 1128px*/
+	float: right;
+}
+
+nav ul{
+	float: right;
+}
+
+nav li{
+	font-size: 1.2em;
+	display: inline-block;
+	margin-left: 2.0em;
+	margin-top: 1.0em;}
+
+
+nav li a{
+	color: #999;
+ }
+
+
+.banner{background: url('../img/banner.jpg');
+	height: 450px; /* altura n muda;largura muda de a cordo com o dispositivo onde foi aberto o site*/
+	margin-bottom: 4.8em; /*48px*/
+	position: relative;}
+
+
+.caixa{
+	position: absolute;
+	top: 48px;
+	background: rgba(0,0,0,0.6);
+	width: 42.55%; /*480px objeto - 1128contexto*/
+	padding: 2.4em 1.4em 2.4em 4.0em;/*top right bottom left*/
+	display: center;}
+
+h1{
+	font-size: 1.8em; /*18px*/
+	color: #FFF;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.caixa p{
+	font-size: 1.8em;
+	color: #FFF;
+}
+/* 
+O Position não serve para diagramar a estrutura de layouts. Para isso, você utiliza a propriedade float do css. O Position vai servir para fazer coisas mais simples.
+#fixed irá fixar a posição do elemento na coordenada que você definir
+#relative posiciona o elemento em relação a si mesmo.
+#absolute se utiliza do ponto superior esquerdo de outros elementos. Estes elementos são os parentes dele do elemento com position absolute. Mais especificamente o pai.
+*/
+h1{
+	font-size: 4.0em;
+	color: #FFF;
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 0;}
+
+
+article{
+	width: 23.40%; /* 264px - 1128objeto*/
+	float: left;
+	margin-right: 2.4em;}
+
+
+article:last-child{ margin-right: 0; }
+
+
+article p{
+	text-align: justify;
+	font-size: 1.6em;}
+
+
+h2{	font-size: 2.4em;}
+
+p{
+	font-size: 1.6em;
+	text-align: justify;}
+
+
+footer{
+	width: 100%;
+	margin-top: 2.4em;
+	margin-bottom: 2.4em;}
+
+
+.footer{
+	font-size: 1.0em;
+	margin-bottom: 0;}
+
+
+/*medias queries*/
+
+@media screen and (max-width: 1128px){
+
+.container{ 
+padding: 0 2.4em 0 2.4em; /*top right bottom left*/
+}
+
+
+}
+/*tablet horizontal e vertical*/
+
+@media screen and (max-width: 768px){
+	.caixa{
+		width: 65%;}
+    
+    .coluna{
+    	width: 48%;
+        margin-bottom: 2,4em;
+        margin-right: 2%;}
+
+
+    .coluna:nth-child(even){
+    	margin-right: 0;}
+
+
+    .logo:{
+    	margin-top: 1.2em;
+    	width: 25%;}
+
+}
+
+@media screen and (max-width: 718px){
+    .banner{
+	position: relative;
+	float: left;
+	margin: 0;
+	height: 150px;
+}
+    .caixa{
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    background: #000;
+    margin-top: 100px;
+}
+
+h1{font-size: 2.5em;}
+
+section{margin-top: 450px;
+  }
+
+}
+
+@media screen and(max-width: 640px){
+     nav{width: 100%;
+    }
+
+     nav ul{float: left;
+     	font-size: 0.8em;
+    }
+
+    nav li:first-child{
+    	margin-left: 0;
+    }
+
+}
+
+/*celular*/
+@media screen and(max-width: 520px){
+	.coluna{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.caixa{
+		padding: 1.2em 2em 1.2em 2em;
+		position: relative;
+        display: block;
+        float: left;
+        width: 100%;
+        background: #000;
+        margin-top: 80px;
+	}
+
+	.banner{height: 120px;  }
+}
