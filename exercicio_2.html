@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - Cores e Background</title>
+  </head>
+
+  <body style="margin-bottom: 200px; padding: 20px; width: 600px; margin: 0 auto;">
+
+    <!-- CORES -->
+
+    <!-- Classes para formatação de textos -->
+    <h1 class="text-primary">Texto primary</h1>
+    <h1 class="text-secondary">Texto secondary</h1>
+    <h1 class="text-success">Texto success</h1>
+    <h1 class="text-info">Texto info</h1>
+    <h1 class="text-warning">Texto warning</h1>
+    <h1 class="text-danger">Texto danger</h1>
+    <h1 class="text-light">Texto light</h1>
+    <h1 class="text-dark">Texto dark</h1>
+    <h1 class="text-white">Texto white</h1>
+    <h1 class="text-black-50">Texto black 50</h1>
+    <h1 class="text-white-50">Texto white 50</h1>
+
+    <br>
+    <br>
+
+    <!-- Formatação de links -->
+    <a href="#" class="text-primary">Link primary</a><br>
+    <a href="#" class="text-secondary">Link secondary</a><br>
+    <a href="#" class="text-success">Link success</a><br>
+    <a href="#" class="text-info">Link info</a><br>
+    <a href="#" class="text-warning">Link warning</a><br>
+    <a href="#" class="text-danger">Link danger</a><br>
+    <a href="#" class="text-light">Link light</a><br>
+    <a href="#" class="text-dark">Link dark</a><br>
+    <a href="#" class="text-white">Link white</a><br>
+
+    <br>
+    <br>
+
+    <!-- Backgrounds -->
+    <div class="bg-primary">Background primary</div>
+    <div class="bg-secondary text-white">Background secondary</div>
+    <div class="bg-success">Background success</div>
+    <div class="bg-info">Background info</div>
+    <div class="bg-warning">Background warning</div>
+    <div class="bg-danger text-white">Background danger</div>
+    <div class="bg-light">Background light</div>
+    <div class="bg-dark text-white">Background dark</div>
+    <div class="bg-white">Background white</div>
+    <div class="bg-transparent">Background transparent</div>
+
+    
+    <!-- Margin e padding -->
+
+  
+    <!-- Aplicação de Margin
+    mt -> Margin Top
+    mb -> Margin Bottom
+    ml -> Margin Left
+    mr -> Margin Right
+    mx -> Margin no eixo x (horizontal) esquerda/direita
+    my -> Margin no eixo y (vertical) top/bottom
+    m  -> Margin em todos os lados
+    Valor a definir (0 até 5)
+    -->
+    <h1 class="bg-success m-5" >Margin</h1>
+    <p class="bg-success m-1">Conteúdo principal</p>
+    <h1 class="bg-success mx-3">Margin</h1>
+
+    <br>
+    <br>
+
+    <!-- Aplicação de Padding
+    pt -> Padding Top
+    pb -> Padding Bottom
+    pl -> Padding Left
+    pr -> Padding Right
+    px -> Padding no eixo x (horizontal) esquerda/direita
+    py -> Padding no eixo y (vertical) top/bottom
+    p  -> Padding em todos os lados
+    Valor a definir (0 até 5)
+    -->
+    <h1 class="bg-success p-2">Padding</h1>
+    <p class="bg-success p-4">Conteúdo principal</p>
+    <h1 class="bg-success text-white p-3 m-4 text-center">Padding</h1>
+
+    <br>
+    <br>
+
+    <!-- Float -->
+
+    <!-- Elementos flutuantes -->
+    <div class="clearfix">
+        <div class="bg-success float-left">Float Left</div>
+        <div class="bg-warning float-right">Float Right</div>
+    </div>
+
+    <!-- Posicionamento fixo - top e bottom -->
+    <h1 class="bg-danger text-white fixed-bottom m-0">Título do conteúdo fixo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+    <!-- 
+        Float responsivo - float-<tela>-<direcao>
+            tela: sm, md, lg, xl
+            alinhamento: left, right
+     -->
+    <div class="float-sm-right">tela &gt;= 576px * </div><!--Small-->
+    <div class="float-md-right">tela &gt;= 768px * </div><!--Medium-->
+    <div class="float-lg-right">tela &gt;= 992px * </div><!--Large-->
+    <div class="float-xg-right">tela &gt;= 1200px * </div><!--Extra Large-->
+
+    <br>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+    <!-- Colar no topo (sticky) -->
+    <ul class="list-inline bg-warning sticky-top">
+      <li class="list-inline-item">Item 1</li>
+      <li class="list-inline-item">Item 2</li>
+      <li class="list-inline-item">Item 3</li>
+    </ul>
+
+    <h1>Título do conteúdo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+
+    <!-- Tamanhos -->
+
+    <!-- classes de largura  - width -->
+
+    <div class="bg-primary m-2 p-2 text-white w-25">width 25%</div>
+    <div class="bg-primary m-2 p-2 text-white w-50">width 50%</div>
+    <div class="bg-primary m-2 p-2 text-white w-75">width 75%</div>
+    <div class="bg-primary m-2 p-2 text-white w-100">width 100%</div>
+    <div class="bg-primary m-2 p-2 text-white w-auto">width auto</div>
+
+    <br>
+    <br>
+
+    <!-- classes de altura - height -->
+
+    <div style="border: 1px solid red; height: 300px;">
+        <div class="d-inline-block bg-warning h-25">height 25%</div>
+        <div class="d-inline-block bg-warning h-50">height 50%</div>
+        <div class="d-inline-block bg-warning h-75">height 75%</div>
+        <div class="d-inline-block bg-warning h-100">height 100%</div>
+        <div class="d-inline-block bg-warning h-auto">height auto</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Bordas
+    border        -> todas as bordas
+    border-top    -> borda superior
+    border-bottom -> borda inferior
+    border-right  -> bordar direita
+    border-left   -> borda esquerda
+    Cores de bordas
+    border-<cor>: primary, secondary, success, 
+        info, warning, danger, light, dark, white
+    -->
+    <div class="border border-danger m-2 p-1">todas as bordas</div>
+    <div class="border-top border-danger m-2 p-1">borda superior</div>
+    <div class="border-bottom border-danger m-2 p-1">borda inferior</div>
+    <div class="border-right border-danger m-2 p-1">borda direita</div>
+    <div class="border-left border-danger m-2 p-1">borda esquerda</div>
+
+    <br>
+    <br>
+
+    <!-- Border Radius 
+    opções: rounded, rounded-top, rounded-right, 
+            rounded-right, rounded-left, rounded-circle
+    -->
+    <div class="bg-success m-2 p-1 text-white border rounded">rounded</div>
+    <div class="bg-success m-2 p-1 text-white border rounded-top">rounded top</div>
+    <div class="bg-success m-2 p-1 text-white border rounded-bottom">rounded bottom</div>
+    <div class="bg-success m-2 p-1 text-white border rounded-right">rounded right</div>
+    <div class="bg-success m-2 p-1 text-white border rounded-left">rounded left</div>
+    <div class="bg-success m-2 p-5 text-white border rounded-circle w-25">rounded circle</div>
+
+    <br>
+    <br>
+
+
+  
+    <div><img src="images/lontra.jpg" alt="Lontra" class="w-50 float-left mb-5 p-1"></div>
+    <div><img src="images/lontrinha.jpg" alt="Lontra" class="w-50 float-left mb-5 p-1"></div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Do
